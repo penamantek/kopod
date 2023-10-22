@@ -1,2 +1,2 @@
-# kopod.github.io
+# kopod
 kyla's personal cs portfolio site!
