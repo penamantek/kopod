@@ -1,2 +1,2 @@
 # kopod
-kyla's personal cs portfolio :)
+kyla's personal cs portfolio (coming soon)
