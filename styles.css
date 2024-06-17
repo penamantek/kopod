@@ -55,15 +55,68 @@ h1 {
     font-family:'Jost';
     padding-bottom: 0.5rem;
     font-size: 3rem;
-    text-align: left;
+    text-align: center;
     color: #fef5ea;
-    padding-left: 35vh;
-    padding-right: 35vh;
+    /* padding-left: 35vh;
+    padding-right: 35vh; */
 
     background: #A70F23;
 background: linear-gradient(to bottom left, #A70F23 33%, #393391 66%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
+}
+
+.section-container-teammain {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.experience-section-container {
+    margin: 10px;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    gap: 2rem;
+    height: 100%;
+}
+
+.starting-container {
+    display: flex;
+    position: relative;
+    gap: 1rem;
+    margin-bottom:1rem;
+    margin-top: 1rem;
+}
+
+.details-container {
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.5rem;
+    /* padding-top: 10rem;
+    padding-bottom: 10rem; */
+    flex: 1;
+    text-align: center;
+}
+
+.experience-card-item-container {
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: space-around;
+}
+
+.experience-card-item {
+    width: 19rem;
+    display: flex;
+    justify-content: space-around;
+    gap: 0.5rem;
+}
+
+.experience-card-item:hover {
+    cursor: pointer;
 }
 
 .title {
