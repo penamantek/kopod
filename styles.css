@@ -48,8 +48,8 @@ h1 {
     font-size: 3rem;
     text-align: left;
     color: #fef5ea;
-    padding-left: 30rem;
-    padding-right: 30rem;
+    padding-left: 30vh;
+    padding-right: 30vh;
 
     background: #A70F23;
 background: linear-gradient(to bottom left, #A70F23 33%, #393391 66%);
@@ -315,7 +315,7 @@ section {
     /* top left, top right, bottom right, bottom left */
     border-radius: 0px 0px 0px 100px;
     border-top-style: none;
-    border-bottom: 7px dotted rgb(94, 52, 4);
+    /* border-bottom: 7px dotted rgb(94, 52, 4); */
 }
 
 #experience-main {
