@@ -19,7 +19,7 @@
         padding-bottom: 5rem;
     }
 
-    .team-section-container, .starting-container {
+    .experience-card-container {
         margin: 0;
         display: block;
         /* flex-wrap: wrap; */
