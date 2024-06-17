@@ -79,7 +79,7 @@ background: linear-gradient(to bottom left, #A70F23 33%, #393391 66%);
 
 .experience-card-container {
     
-    /* to do: MAKE DIFFERENT DIVS PER CARD */
+    /* to do: MAKE DIFFERENT DIVS PER CARD ALSO CHANGE EXPERIENCE FONT*/
     /* margin: 10px; */
     justify-content: center;
     display: flex;
