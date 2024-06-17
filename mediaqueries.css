@@ -1,0 +1,38 @@
+@media screen and (max-width: 1200px) {
+    #desktop-nav {
+        display: none;
+    }
+    #hamburger-nav {
+        display: flex;
+    }
+
+    .section-container, .section-container-teammain {
+        display: block;
+        height: fit-content;
+    }
+
+    section {
+        margin: 0;
+        height: 100vh;
+        gap: 0;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+
+    .team-section-container, .starting-container {
+        margin: 0;
+        display: block;
+        /* flex-wrap: wrap; */
+        height: fit-content;
+    }
+
+    .team-section-container {
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+    }
+
+    .starting-container {
+        gap: 2rem;
+    }
+
+}

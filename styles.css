@@ -17,17 +17,92 @@ html {
 }
 
 p {
-    color: rgb(85, 85, 85);
+    color: rgb(94, 52, 4);
 }
 
 h1 {
     font-family: 'Jost', monospace;
 }
 
+.profile-head {
+    font-family:'Merriweather';
+    padding-top: 0.25rem;
+    padding-bottom: 0.75rem;
+    font-size: 3rem;
+    text-align: left;
+    color: #fef5ea;
+}
+
+.profile-body {
+    font-family:'Inconsolata';
+    font-family: 'Jost';
+    padding-bottom: 0.5rem;
+    font-size: 1.05rem;
+    text-align: left;
+    color: #cca784;
+}
+
+.experience-head {
+    font-family:'Jost';
+    padding-bottom: 0.5rem;
+    font-size: 3rem;
+    text-align: left;
+    color: #fef5ea;
+    padding-left: 30rem;
+    padding-right: 30rem;
+
+    background: #A70F23;
+background: linear-gradient(to bottom left, #A70F23 33%, #393391 66%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.title {
+    font-family: 'Jost';
+    font-size: 4rem;
+    text-align: center;
+    color: rgb(94, 52, 4);
+
+
+    /* background: #0015FF;
+    background: linear-gradient(to top right, #0015FF 0%, #FF0000 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+
+    /* mmm idk if i'm iffy about this */
+    background: #A70F23;
+background: linear-gradient(to bottom left, #A70F23 33%, #393391 66%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+
+
+
+
+.menu-title {
+    color: rgb(94, 52, 4);
+}
+
 .highlight {
     color: darkcyan;
 }
 
+
+.wrap {
+    height: 200px;
+    width: 200px;
+    border: 1px solid #aaa;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .wrap span {
+    align-self: flex-end;
+    align-items: center;
+    text-align: center;
+  }
 
 
 /* transitions */
@@ -48,7 +123,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     height: 15vh;
-    background-color: #dcdcdc;
+    background-color: #fef5ea;
 }
 
 .nav-links {
@@ -58,7 +133,7 @@ nav {
 }
 
 a {
-    color: #232323;
+    color: rgb(94, 52, 4);
     text-decoration: none;
     text-decoration-color: white;
     font-weight: 500;
@@ -72,8 +147,8 @@ a:hover {
 }
 
 .logo {
-    font-family: 'Jost', monospace;
-    color: #414141;
+    font-family: 'Jost';
+    color: rgb(94, 52, 4);
     font-size: 2rem;
 }
 
@@ -186,8 +261,79 @@ section {
     justify-content: center;
     gap: 5rem;
     height: 85vh;
-    background-color: #dcdcdc;
+    background-color: #6d3c0e;
+
+    border: 5px solid rgb(94, 52, 4);
+    /* top left, top right, bottom left, bottom right */
+    border-radius: 100px 5px 5px 0px;
+    border-bottom: 7px dotted rgb(94, 52, 4);
+    border-bottom-style: dotted;
 }
+
+#home-main {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 85vh;
+    background-color: #fef5ea;
+}
+
+#experience-card {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 85vh;
+    background-color: #6d3c0e;
+
+    border: 5px solid rgb(94, 52, 4);
+    /* top left, top right, bottom left, bottom right */
+    border-radius: 0px 0px 0px 0px;
+    border-top-style: none;
+    border-bottom: 7px dotted rgb(94, 52, 4);
+}
+
+#experience-card-inner {
+    display: flex;
+    justify-content: center;
+    gap: 0.25rem;
+    height: 45rem;
+    background-color: #fef5ea;
+
+    border: 7px dashed rgb(94, 52, 4);
+    border-radius: 40px;
+
+}
+
+#experience-main {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 10vh;
+    background-color: #fef5ea;
+
+}
+
+#wallet-bg {
+    background-color: #8a561654;
+    padding-top: 0vh;
+    border: 5px solid rgb(94, 52, 4);
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: solid;
+    border-bottom-style: none;
+    /* top left, top right, bottom left, bottom right */
+    border-radius: 100px 100px 0px 0px;
+    padding-right: 5rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    height: 200rem;
+}
+
+#wallet-head-bg {
+    background-color: #fef5ea;
+    height: 100rem;
+}
+
 
 .section__text {
     align-self: center;
@@ -198,9 +344,6 @@ section {
     font-weight: 400;
 }
 
-.section__text__p1 {
-    text-align: center;
-}
 
 .section__text__p2 {
     text-align: center;
@@ -211,3 +354,66 @@ section {
     font-size: 1.45rem;
     /* margin-bottom: 1rem; */
 }
+
+.experience__text__p3 {
+    text-align: center;
+}
+
+.section-pic-container {
+    display: flex;
+    height: 400px;
+    width: 300px;
+    margin: auto 0;
+}
+
+.kyla-home-pic {
+    /* top left, top right, bottom left, bottom right */
+    border-radius: 30px;
+}
+
+/* buttons */
+
+.btn {
+    font: 'Jost';
+    font-weight: bold;
+    transition: all 300ms ease;
+    padding: 1rem;
+    width: 8rem;
+    border-radius: 1rem;
+    border: none;
+}
+
+.btn-home-1 {
+    background-color: #cca784;
+    color: rgb(94, 52, 4);
+}
+
+.btn-home-2 {
+    background-color: rgb(94, 52, 4);
+    color: #cca784;
+}
+
+.btn-home-1:hover, .btn-home-2:hover {
+    cursor: pointer;
+}
+
+.btn-home-1:hover {
+    background-color: rgb(94, 52, 4);
+    color: #cca784;
+}
+
+.btn-home-2:hover {
+    background-color: #cca784;
+    color: rgb(94, 52, 4);
+}
+
+.btn-container-profile {
+    padding-top: 1rem;
+    gap: 1rem;
+    text-align: left;
+}
+
+.btn-container {
+    gap: 1rem;
+}
+
