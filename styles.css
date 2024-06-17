@@ -264,7 +264,7 @@ section {
     background-color: #6d3c0e;
 
     border: 5px solid rgb(94, 52, 4);
-    /* top left, top right, bottom left, bottom right */
+    /* top left, top right, bottom right, bottom left */
     border-radius: 100px 5px 5px 0px;
     border-bottom: 7px dotted rgb(94, 52, 4);
     border-bottom-style: dotted;
@@ -286,7 +286,7 @@ section {
     background-color: #6d3c0e;
 
     border: 5px solid rgb(94, 52, 4);
-    /* top left, top right, bottom left, bottom right */
+    /* top left, top right, bottom right, bottom left */
     border-radius: 0px 0px 0px 0px;
     border-top-style: none;
     border-bottom: 7px dotted rgb(94, 52, 4);
@@ -296,12 +296,26 @@ section {
     display: flex;
     justify-content: center;
     gap: 0.25rem;
-    height: 45rem;
+    height: 70vh;
     background-color: #fef5ea;
 
     border: 7px dashed rgb(94, 52, 4);
     border-radius: 40px;
 
+}
+
+#contact-card {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 85vh;
+    background-color: #6d3c0e;
+
+    border: 5px solid rgb(94, 52, 4);
+    /* top left, top right, bottom right, bottom left */
+    border-radius: 0px 0px 0px 100px;
+    border-top-style: none;
+    border-bottom: 7px dotted rgb(94, 52, 4);
 }
 
 #experience-main {
@@ -320,18 +334,18 @@ section {
     border-top-style: none;
     border-left-style: none;
     border-right-style: solid;
-    border-bottom-style: none;
-    /* top left, top right, bottom left, bottom right */
-    border-radius: 100px 100px 0px 0px;
+    border-bottom-style: solid;
+    /* top left, top right, bottom right, bottom left */
+    border-radius: 100px 100px 100px 100px;
     padding-right: 5rem;
     margin-right: 1rem;
     margin-left: 1rem;
-    height: 200rem;
+    height: 255vh;
 }
 
 #wallet-head-bg {
     background-color: #fef5ea;
-    height: 100rem;
+    height: 260vh;
 }
 
 
@@ -367,7 +381,7 @@ section {
 }
 
 .kyla-home-pic {
-    /* top left, top right, bottom left, bottom right */
+    /* top left, top right, bottom right, bottom left */
     border-radius: 30px;
 }
 
