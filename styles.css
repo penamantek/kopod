@@ -48,8 +48,8 @@ h1 {
     font-size: 3rem;
     text-align: left;
     color: #fef5ea;
-    padding-left: 30vh;
-    padding-right: 30vh;
+    padding-left: 35vh;
+    padding-right: 35vh;
 
     background: #A70F23;
 background: linear-gradient(to bottom left, #A70F23 33%, #393391 66%);
@@ -77,7 +77,39 @@ background: linear-gradient(to bottom left, #A70F23 33%, #393391 66%);
 
 }
 
+.experience-card-container {
+    
+    /* to do: MAKE DIFFERENT DIVS PER CARD */
+    /* margin: 10px; */
+    justify-content: center;
+    display: flex;
+    position: relative;
+    gap: 1rem;
+    /* height: 100%; */
 
+    display: flex;
+    height: 10vh;
+    width: 10vh;
+    margin: auto 0;
+
+    padding: 5vh;
+    padding-left:52vh;
+    /* margin-left:1.5rem; */
+
+    display: flex;
+    justify-content: center;
+    gap: 0.25rem;
+    height: 20vh;
+    /* background-color: #fef5ea; */
+
+    /* border: 7px dashed rgb(94, 52, 4);
+    border-radius: 40px; */
+}
+
+
+.experience-card-item:hover {
+    cursor: pointer;
+}
 
 
 .menu-title {
