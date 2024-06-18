@@ -377,6 +377,7 @@ section {
     border-radius: 0px 0px 0px 100px;
     border-top-style: none;
     /* border-bottom: 7px dotted rgb(94, 52, 4); */
+    position:relative;
 }
 
 #contact-card-inner {
@@ -391,8 +392,8 @@ section {
     display: flex;
     justify-content: center;
     height: 14.5vh;
-    padding-left: 10rem;
-    padding-right: 10rem;
+    padding-left: 15vh;
+    padding-right: 15vh;
     padding-bottom: 0rem;
     margin-bottom: 0rem;
     border: 5px dashed rgb(75, 41, 3);
@@ -405,11 +406,12 @@ section {
 .github-card, .linkedin-card, .email-card {
     display: flex;
     justify-content: left;
-    width: 70rem;
+    width: 64.5vh;
     height: 5rem;
     /* top left, top right, bottom right, bottom left */
     border-radius: 50px 50px 0px 0px;
     align-items: flex-end;
+
 }
 
 .github-card:hover, .linkedin-card:hover, .email-card:hover {
@@ -455,9 +457,10 @@ section {
 #contact-middle-rectangle {
     display: flex;
     justify-content: center;
+    position: relative;
     height: 14.5vh;
-    padding-left: 10rem;
-    padding-right: 10rem;
+    padding-left: 15vh;
+    padding-right: 15vh;
     margin-top:0;
     border: 5px dashed rgb(75, 41, 3);
     padding-bottom: 0rem;
@@ -471,10 +474,11 @@ section {
 
 #contact-bottom-rectangle {
     display: flex;
+    position: relative;
     justify-content: center;
     height: 14.5vh;
-    padding-left: 10rem;
-    padding-right: 10rem;
+    padding-left: 15vh;
+    padding-right: 15vh;
     margin-top:0;
     border: 5px dashed rgb(75, 41, 3);
 
@@ -487,15 +491,20 @@ section {
 }
 
 #contact-bottom-bottom-rectangle {
+    position: relative;
     display: flex;
     justify-content: center;
-    height: 27vh;
-    width: 91.3rem;
-    padding-left: 10rem;
-    padding-right: 10rem;
+    height: 20vh;
+    width: 96.6vh;
+    /* padding-left: 5vh;
+    padding-right: 5vh; */
     margin-top:0;
     border: 5px dashed rgb(75, 41, 3);
     border-bottom-style: none;
+    padding-left: 15vh;
+    padding-right: 15vh;
+    margin-right: auto;
+    margin-left: auto;
 
     /* top left, top right, bottom right, bottom left */
     border-radius: 0px 0px 0px 0px;

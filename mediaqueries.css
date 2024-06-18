@@ -26,6 +26,16 @@
         height: fit-content;
     }
 
+    #contact-card-inner, #contact-card {
+        display: block;
+        /* height: fit-content; */
+        /* width: fit-content; */
+    }
+/* 
+    #wallet-head-bg, #wallet-bg {
+    
+    } */
+
     .team-section-container {
         padding-top: 1rem;
         padding-bottom: 2rem;
