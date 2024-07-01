@@ -33,6 +33,16 @@ h1 {
     color: #fef5ea;
 }
 
+.experience-head {
+    font-family:'Merriweather';
+    padding-top: 0.25rem;
+    padding-bottom: 0.75rem;
+    font-size: 3rem;
+    text-align: center;
+    color: rgb(137, 88, 33);
+
+}
+
 .profile-body {
     font-family:'Inconsolata';
     font-family: 'Jost';
@@ -51,20 +61,20 @@ h1 {
   flex-direction: row;
 }
 
-.experience-head {
+/* .experience-head {
     font-family:'Jost';
     padding-bottom: 0.5rem;
     font-size: 3rem;
     text-align: center;
     color: #fef5ea;
     /* padding-left: 35vh;
-    padding-right: 35vh; */
+    padding-right: 35vh;
 
     background: #A70F23;
 background: linear-gradient(to bottom left, #A70F23 33%, #393391 66%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
-}
+} */
 
 .section-container-teammain {
     display: flex;
@@ -407,7 +417,7 @@ section {
     display: flex;
     justify-content: left;
     width: 64.5vh;
-    height: 5rem;
+    height: 3.5rem;
     /* top left, top right, bottom right, bottom left */
     border-radius: 50px 50px 0px 0px;
     align-items: flex-end;
@@ -436,7 +446,7 @@ section {
 .github-text, .linkedin-text, .email-text {
     font-family: "Inconsolata";
     font-weight: 400;
-    padding-bottom: 0.7rem;
+    padding-bottom: 0.2rem;
     padding-left: 3rem;
     font-size: 3rem;
     text-align: center;
