@@ -261,7 +261,7 @@ a:hover {
     position: absolute;
     top: 100%;
     right: 0%;
-    background-color: #dcdcdc;
+    background-color: #fef5ea;
     width: fit-content;
     max-height: 0;
     overflow: hidden;
@@ -666,6 +666,7 @@ section {
 
 .gallery-grid > img:hover {
     transform: scale(1.05);
+    cursor: pointer;
 }
 
 
