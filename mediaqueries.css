@@ -46,3 +46,172 @@
     }
 
 }
+
+
+@media screen and (max-width: 1024px) {
+    .gallery-grid {
+        --num-cols: 2;
+        --row-height: 200px;
+    }
+
+    .section-pic-container {
+        display: flex;
+        height: 150px;
+        width: 100px;
+        margin: auto 0;
+    }
+
+    #home {
+        display: flex;
+        justify-content: center;
+        gap: 1.75rem;
+        height: 50vh;
+        background-color: #6d3c0e;
+
+        border: 5px solid rgb(94, 52, 4);
+        /* top left, top right, bottom right, bottom left */
+        border-radius: 100px 5px 5px 0px;
+        border-bottom: 7px dotted rgb(94, 52, 4);
+        border-bottom-style: dotted;
+    }
+
+    .profile-head {
+        font-size: 1rem;
+    }
+    .profile-body {
+        font-size: 0.75rem;
+    }
+
+    .btn {
+        padding: 0.35rem;
+        width: 5rem;
+        border-radius: 1rem;
+    }
+
+    /* change  */
+    #experience-card {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        height: 85vh;
+        background-color: #6d3c0e;
+    
+        border: 5px solid rgb(94, 52, 4);
+        /* top left, top right, bottom right, bottom left */
+        border-radius: 0px 0px 0px 0px;
+        border-top-style: none;
+        border-bottom: 7px dotted rgb(94, 52, 4);
+    }
+    
+    #experience-card-inner {
+        display: block;
+        justify-content: center;
+        gap: 0.25rem;
+        height: 45vh;
+        background-color: #fef5ea;
+    
+        border: 7px dashed rgb(94, 52, 4);
+        border-radius: 40px;
+    
+    }
+
+    .experience-head {
+        font-family:'Merriweather';
+        padding-top: 0.15rem;
+        padding-bottom: 0.5rem;
+        font-size: 2rem;
+        text-align: center;
+        color: rgb(137, 88, 33);
+    }
+
+    .experience-card-item-container {
+        display: flex;
+        text-align: initial;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 0.5rem;
+        justify-content: space-around;
+    }
+    
+    .experience-card-item {
+        width: 10rem;
+        display: flex;
+        justify-content: space-around;
+        gap: 0.25rem;
+    }
+
+    .starting-container {
+        display: block;
+        position: relative;
+        gap: 0.1rem;
+        margin-bottom:0.5rem;
+        margin-top: 0.5rem;
+    }
+
+    .github-card, .linkedin-card, .email-card {
+        display: flex;
+        justify-content: left;
+        width: 60vh;
+        height: 3.5rem;
+        /* top left, top right, bottom right, bottom left */
+        border-radius: 50px 50px 0px 0px;
+        align-items: flex-end;
+    
+    }
+
+    .github-text, .linkedin-text, .email-text {
+        font-family: "Inconsolata";
+        font-weight: 400;
+        padding-bottom: 0.2rem;
+        padding-left: 2rem;
+        font-size: 1.75rem;
+        text-align: center;
+    }
+
+    #contact-card {
+        display: block;
+        justify-content: center;
+        gap: 5rem;
+        height: 70vh;
+        background-color: #6d3c0e;
+    
+        border: 5px solid rgb(94, 52, 4);
+        /* top left, top right, bottom right, bottom left */
+        border-radius: 0px 0px 0px 100px;
+        border-top-style: none;
+        /* border-bottom: 7px dotted rgb(94, 52, 4); */
+        position:relative;
+    }
+
+    #contact-card-inner {
+        display: block;
+        justify-content: center;
+        height: 50vh;
+        flex-wrap: wrap;
+        gap: 0rem;
+    }
+
+    #wallet-bg {
+        background-color: #8a561654;
+        padding-top: 0vh;
+        padding-bottom: 0vh;
+        border: 5px solid rgb(94, 52, 4);
+        border-top-style: none;
+        border-left-style: none;
+        border-right-style: solid;
+        border-bottom-style: solid;
+        /* top left, top right, bottom right, bottom left */
+        border-radius: 100px 100px 100px 100px;
+        padding-right: 4rem;
+        margin-right: 1rem;
+        margin-left: 2rem;
+        height: 255vh;
+    }
+    
+    #wallet-head-bg {
+        background-color: #fef5ea;
+        height: 20vh;
+    }
+
+
+}

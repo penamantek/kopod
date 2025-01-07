@@ -668,11 +668,3 @@ section {
     transform: scale(1.05);
     cursor: pointer;
 }
-
-
-@media screen and (max-width: 1024px) {
-    .gallery-grid {
-        --num-cols: 2;
-        --row-height: 200px;
-    }
-}
